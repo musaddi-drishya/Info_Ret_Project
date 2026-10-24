@@ -1,0 +1,5 @@
+# keep binaries byte-exact on Windows checkouts (core.autocrlf)
+*.pdf binary
+*.png binary
+*.npz binary
+*.db  binary

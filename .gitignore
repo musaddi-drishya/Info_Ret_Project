@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# public datasets are downloaded (see README); the custom campus corpus is committed
+data/raw/*
+!data/raw/campus/
+data/raw/campus/*
+!data/raw/campus/campus_articles.json
+data/cache/
+data/processed/
+group6_project_share.zip
