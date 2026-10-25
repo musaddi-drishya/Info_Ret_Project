@@ -1,4 +1,4 @@
-# Correcting Length Bias — Pivoted Document Length Normalization
+# Correcting Length Bias - Pivoted Document Length Normalization
 
 **Group 6 · Information Retrieval · Classic Paper Replication & Stress Testing**
 Divyansh Jain · Drishya Musaddi · Aditya Goyal · Himabh Gemini
@@ -87,7 +87,7 @@ python tests/test_core.py
 ## Notes and limitations
 
 - Public-corpus relevance is the **category proxy** (proposal §4.3). Because sampling is stratified by
-  length, P(relevant | length) is flat by design — unlike TREC, where long documents are more often relevant.
+  length, P(relevant | length) is flat by design - unlike TREC, where long documents are more often relevant.
   This is central to interpreting E1/E2.
 - The campus corpus is judged by two group members via `data/judgments/campus_qrels.csv` (pooled top-10 of
   Cosine / Pivoted / BM25); agreement is reported with Cohen's κ.
