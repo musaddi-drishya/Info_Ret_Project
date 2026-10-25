@@ -1,0 +1,15 @@
+,value
+docs,1000.0
+vocabulary,19257.0
+postings,81003.0
+tokens,133256.0
+len_min,20.0
+len_median,58.0
+len_mean,133.256
+len_max,6570.0
+queries,30.0
+avg_relevant_per_query,50.0
+preprocess_s,0.29873460000089835
+index_build_s,1.8281766000000061
+index_MB,2.0840492248535156
+build_peak_MB,8.389913558959961
